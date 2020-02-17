@@ -131,7 +131,7 @@ Learn more about the render prop [Translation](../latest/translation-render-prop
 
 ### Using the Trans component
 
-The Trans component is the best way to translate a JSX tree in one translation. This enables you to eg. easily translate text containing a link component or formatting like `<strong>`.
+The Trans component is the best way to translate a JSX tree in one translation. This enables you, eg. easily translate text containing a link component or formatting like `<strong>`.
 
 ```jsx
 import React from 'react';
