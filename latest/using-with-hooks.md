@@ -114,7 +114,7 @@ Please note the t function will be either bound to the default namespace defined
 
 #### Using the withTranslation HOC
 
-There might be some legacy cases where you still forced to use classes. No worry we still provide a hoc to cover this cases:
+There might be some legacy cases where you still forced to use classes. No worries we still provide a hoc to cover this cases:
 
 ```jsx
 import React, { Component, Suspense } from 'react';
@@ -152,7 +152,7 @@ withTranslation(['page1', 'common'])(LegacyComponentClass);
 
 #### Using the Trans component
 
-The Trans component is the best way to translate a JSX tree in one translation. This enables you to eg. easily translate text containing a link component or formatting like `<strong>`.
+The Trans component is the best way to translate a JSX tree in one translation. This enables you, eg. easily translate text containing a link component or formatting like `<strong>`.
 
 ```jsx
 import React from 'react';
